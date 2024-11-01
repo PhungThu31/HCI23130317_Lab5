@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>My Learning</h1>
+        <div class="watch-time">
+            <span>87hr 36min</span>
+            <p>watched</p>
+            <i class="fas fa-info-circle"></i>
+            <a href="#" class="view-activity">View all activity</a>
+        </div>
+        
+        <nav class="tabs">
+            <a href="index.html">All courses</a>
+            <a href="learning.html">Learning paths</a>
+            <a href="#">Certifications</a>
+            <a href="#">Archived</a>
+            <a href="#">Learning tools</a>
+        </nav>
+    </header>
+    
+
+    <section class="filters">
+        <div class="filter-labels">
+            <div class="sort-label">
+                <label for="sort">Sort by</label>
+            </div>
+            <div class="filter-label">
+                <label for="category">Filter by</label>
+            </div>
+        </div>
+        <div class="sort-filter">
+            <select id="sort">
+                <option>Recently Accessed</option>
+            </select>
+        </div>
+        <div class="filter-category">
+            <select id="category">
+                <option>Categories</option>
+            </select>
+        </div>
+        <div class="filter-progress">
+            <select id="progress" aria-label="Progress">
+                <option>Progress</option>
+            </select>
+        </div>
+        <div class="filter-instructor">
+            <select id="instructor" aria-label="Instructor">
+                <option>Instructor</option>
+            </select>
+        </div>
+        <div class="filter-reset">
+            <button id="reset">Reset</button>
+        </div>
+        <div class="filter-search">
+            <input type="text" id="search" placeholder="Search my courses" class="search-bar" aria-label="Search">
+            <button class="search-button" aria-label="Search">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </section>
+    
+    <section class="course-list">
+        <div class="course-card">
+            <img src="img/Training.jpg" alt="Course Image">
+            <h2>FPT_ISMS Refresh Training S2 2024 (Vietnamese)</h2>
+            <div class="rating-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div> <!-- Bạn có thể thay đổi width để thay đổi tiến trình -->
+                </div>
+                <div class="rating-status">
+                    <p class="completion-status">100% complete</p>
+                    <span class="stars" style="width: 100%;">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>Leave a rating</p>
+            </div>
+        </div>
+    
+        <div class="course-card">
+            <img src="img/Spring Boot.jpg" alt="Course Image">
+            <h2>The Complete Spring Boot Development Bootcamp</h2>
+            <div class="rating-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                </div>
+                <div class="rating-status">
+                    <p class="completion-status">100% complete</p>
+                    <span class="stars" style="width: 100%;">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>Leave a rating</p>
+            </div>
+        </div>
+    
+        <div class="course-card">
+            <img src="img/MuleSoft.jpg" alt="Course Image">
+            <h2>MuleSoft 4.X Complete Guide For Beginners- Hands On...</h2>
+            <div class="rating-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 1%;"></div>
+                </div>
+                <div class="rating-status">
+                    <p class="completion-status">1% complete</p>
+                    <span class="stars" style="width: 100%;">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>Leave a rating</p>
+            </div>
+        </div>
+    
+        <div class="course-card">
+            <img src="img/english-vocabulary-fast-effectively.jpg" alt="Course Image">
+            <h2>English Vocabulary: 504 Essential Words through 7...</h2>
+            <div class="rating-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 15%;"></div>
+                </div>
+                <div class="rating-status">
+                    <p class="completion-status">15% complete</p>
+                    <span class="stars" style="width: 100%;">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>Leave a rating</p>
+            </div>
+        </div>
+    
+        <div class="course-card">
+            <img src="img/course.png" alt="Course Image">
+            <h2>FPT_ISMS Refresh Training S2 2024 (Vietnamese)</h2>
+            <div class="rating-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div> <!-- Bạn có thể thay đổi width để thay đổi tiến trình -->
+                </div>
+                <div class="rating-status">
+                    <p class="completion-status">100% complete</p>
+                    <span class="stars" style="width: 100%;">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>Leave a rating</p>
+            </div>
+        </div>
+    
+        <div class="course-card">
+            <img src="img/String boot.jpg" alt="Course Image">
+            <h2>The Complete Spring Boot Development Bootcamp</h2>
+            <div class="rating-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                </div>
+                <div class="rating-status">
+                    <p class="completion-status">100% complete</p>
+                    <span class="stars" style="width: 100%;">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>Leave a rating</p>
+            </div>
+        </div>
+    
+        <div class="course-card">
+            <img src="img/OIP.jpg" alt="Course Image">
+            <h2>MuleSoft 4.X Complete Guide For Beginners- Hands On...</h2>
+            <div class="rating-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 1%;"></div>
+                </div>
+                <div class="rating-status">
+                    <p class="completion-status">1% complete</p>
+                    <span class="stars" style="width: 100%;">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>Leave a rating</p>
+            </div>
+        </div>
+    
+        <div class="course-card">
+            <img src="img/English.jpg" alt="Course Image">
+            <h2>English Vocabulary: 504 Essential Words through 7...</h2>
+            <div class="rating-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 15%;"></div>
+                </div>
+                <div class="rating-status">
+                    <p class="completion-status">15% complete</p>
+                    <span class="stars" style="width: 100%;">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>Leave a rating</p>
+            </div>
+        </div>
+    
